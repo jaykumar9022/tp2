@@ -1,0 +1,34 @@
+Use the csv player_stats_90days_low.csv with columns :
+Player : Player Name
+Country : Country of the Player
+Agents : Agents Played
+NumAgents : Number of Agents Played
+Rnd : Rounds Played
+ACS : Average Combat Score
+K:D : Kills to Deaths Ratio
+KAST : Kill, Assist, Survive, Trade %
+ADR : Average Damage per Round
+KPR : Kills Per Round
+APR : Assists Per Round
+FKPR : First Kills Per Round
+FDPR : First Deaths Per Round
+HS% : Headshot Percentage
+CL% : Clutch Success Percentage
+CL : Clutches (Won/Attempted)
+KMax : Maximum Kills in a Single Map
+K : Total Kills
+D : Total Deaths
+A : Total Assists
+FK : First Kills
+FD : First Deaths
+
+Answer the following:
+1. Player with most rounds played
+2. Highest Max Kills in a map
+3. Total Damage done by player with most assists 
+4. How many harbor players 
+5. Number of players from US
+6. Plot the country and avg rounds played
+
+Keys for the json 
+"mostroundPlayer","MaxKills", "DMGmostAs", "harbourPlayers", "UnitedStatePlayers", "plt"
