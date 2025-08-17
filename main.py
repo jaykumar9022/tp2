@@ -900,8 +900,7 @@ async def analyze_data(request: Request):
             f"{llm_rules}\nQuestions:\n{raw_questions}\n"
             f"{df_preview if df_preview else ''}"
             f"{'\nNote: Expected types based on the questions file:\n' + types_hint if types_hint else ''}\n"
-            "Respond with the JSON object only."
-        )
+            "Respond with the JSON object only.")
 
         result = run_agent_safely_unified(llm_input, pickle_path, type_map)
         if result.get("status") != "success":
@@ -957,3 +956,4 @@ if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8080))
     uvicorn.run("main:app", host="0.0.0.0", port=port)
+
